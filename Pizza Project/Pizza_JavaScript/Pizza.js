@@ -117,7 +117,7 @@ function getOrder() {
     txt2 = "<br>"+" <i>Veggies:</i> "+ "$"+veggieTotal + txt2 +"<br>" ;
     
     document.getElementById("displayTxt").innerHTML= txt;
-    document.getElementById("runningTotal2").innerHTML = "<h3>Running Total:</h3>" +txt2;
+    document.getElementById("runningTotal2").innerHTML = "<h3>Pizza Total:</h3>" +txt2;
     document.getElementById("totalPrice").innerHTML = "Total Price: $"+runningTotal+".00"+"</strong></h3>";
     };
     

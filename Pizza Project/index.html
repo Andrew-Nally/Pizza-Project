@@ -5,8 +5,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet"> 
 </head>
 <body>
-<h1>Papa Pepp's Pizzeria</h1>
+<h1>Papa Pepp's Pizzeria<br>
+<span>(614) 557-5557 ORDER NOW!</span></h1>
+<div class="header_line"></div>
 	<!--main-menu-->
+<div class="order-form">
 	<div class="container">
 		<h2>Size:</h2>
         <input class="size" type="radio" name="Size" value="Personal Pizza">Personal Pizza<br>
@@ -58,6 +61,7 @@
 		<input class="veggies" type="checkbox" name="Veggies" value="Spinach">Spinach<br>
 		<input class="veggies" type="checkbox" name="Veggies" value="Jalapeno">Jalapeno<br>
 	</div>
+	</div>
 	<!--buttons-->
 	<div class="btn-container">
 		<button onclick="getOrder()">Order</button>
@@ -66,11 +70,21 @@
 	<div>
 	<!--Receipt-->
 		<div class="order_menu">
-			<p id="displayTxt"></p>
-			<p id="runningTotal2"></p>
-			<p id="totalPrice"></p>
+			<p>Pep's REVIEWS:</p>
+			<p id="displayTxt">MMMMM Delicious!</p><br>
+			<p id="runningTotal2">SO TASTY!!!</p><br><br>
+			<p id="totalPrice">WE LOVE PAPA PEP!</p>
 		</div>
 	</div>
+
+	<footer>
+		<div class="icons">
+			<a href="http://www.facebook.com"><img src="Pizza_CSS/facebook-1.png" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
+			<a href="http://www.twitter.com"><img src="Pizza_CSS\twitter.png" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
+			<a href="http://www.google.com/voice"><img src="Pizza_CSS/icons8-phonelink-ring-50.png" class="icon"><span class="label"> Call us!</span></a>
+			<a href="http://www.gmail.com"><img src="Pizza_CSS\mail-1.png" class="icon"><span class="label">Email</span></a>
+		</div>
+	</footer>
 	<!--javascript-->
 	<script src="Pizza_JavaScript/Pizza.js"></script>	
 </body>
